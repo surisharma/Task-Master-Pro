@@ -25,7 +25,7 @@ jobs:
           docker pull adijaiswal/devtaskmaster:latest
           docker tag adijaiswal/devtaskmaster:latest suri05/prodtaskmaster:latest
           docker push adijaiswal/prodtaskmaster:latest
-  ##  - name: Kubectl Action
+  ###  - name: Kubectl Action
   ##    uses: tale/kubectl-action@v1
   ##    with:
   ##      base64-kube-config: ${{ secrets.KUBE_CONFIG_PROD }}
