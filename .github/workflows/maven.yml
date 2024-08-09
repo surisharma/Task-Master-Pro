@@ -24,7 +24,7 @@ jobs:
       run: |
           docker pull adijaiswal/devtaskmaster:latest
           docker tag adijaiswal/devtaskmaster:latest suri05/prodtaskmaster:latest
-          docker push adijaiswal/prodtaskmaster:latest
+          docker push suri05/prodtaskmaster:latest
   ###  - name: Kubectl Action
   ##    uses: tale/kubectl-action@v1
   ##    with:
